@@ -1,12 +1,12 @@
 # Jenni Doces
 
-Site de portfolio e apresentacao comercial da **Jenni Doces**, criado para mostrar trabalhos reais, organizar categorias de produtos e facilitar pedidos pelo WhatsApp.
+Site de portfólio e apresentação comercial da **Jenni Doces**, criado para mostrar trabalhos reais, organizar categorias de produtos e facilitar pedidos pelo WhatsApp.
 
-O projeto foi pensado principalmente para quem acessa pelo celular. A experiencia mobile e prioridade porque a maior parte dos clientes provavelmente chega pelo Instagram, WhatsApp ou compartilhamento direto de link.
+O projeto foi pensado principalmente para quem acessa pelo celular. A experiência mobile é prioridade porque a maior parte dos clientes provavelmente chega pelo Instagram, WhatsApp ou por compartilhamento direto de link.
 
-## Link do Repositorio
+## Link do Repositório
 
-Repositorio no GitHub:
+Repositório no GitHub:
 
 ```text
 https://github.com/Bolapipa/site_jenni_doces
@@ -17,26 +17,26 @@ https://github.com/Bolapipa/site_jenni_doces
 O site existe para ajudar a cliente a:
 
 - conhecer os doces da Jenni Doces
-- ver fotos reais dos trabalhos ja feitos
+- ver fotos reais dos trabalhos já feitos
 - entender as principais categorias de produtos
-- descobrir como pedir um orcamento
+- descobrir como pedir um orçamento
 - entrar em contato pelo WhatsApp
 - visitar o Instagram como vitrine visual da marca
 
-## Publico Principal
+## Público Principal
 
-O publico principal e mobile.
+O público principal é mobile.
 
-Isso significa que as decisoes de layout, navegacao, tamanho de texto, botoes e galerias foram tomadas pensando primeiro em telas pequenas.
+Isso significa que as decisões de layout, navegação, tamanho de texto, botões e galerias foram tomadas pensando primeiro em telas pequenas.
 
-Na pratica, o site precisa:
+Na prática, o site precisa:
 
-- abrir rapido no celular
-- ser facil de rolar
-- ter botoes claros
+- abrir rápido no celular
+- ser fácil de rolar
+- ter botões claros
 - mostrar fotos sem confundir
-- evitar poluicao visual
-- deixar o WhatsApp sempre facil de encontrar
+- evitar poluição visual
+- deixar o WhatsApp fácil de encontrar
 
 ## Tecnologias Utilizadas
 
@@ -46,25 +46,25 @@ O projeto usa uma base simples:
 - `CSS`
 - `JavaScript`
 
-Nao existe framework principal como React, Next.js, Vue, Astro ou Tailwind nesta versao.
+Não existe framework principal como React, Next.js, Vue, Astro ou Tailwind nesta versão.
 
 Essa escolha foi feita para manter o projeto:
 
 - simples
 - leve
-- facil de entender
-- facil de alterar
-- adequado para um site estatico de portfolio
+- fácil de entender
+- fácil de alterar
+- adequado para um site estático de portfólio
 
 ## Bibliotecas Utilizadas
 
 ### GSAP
 
-Usado para animacoes leves de entrada e refinamentos visuais.
+Usado para animações leves de entrada e refinamentos visuais.
 
 Motivo:
 
-- cria transicoes mais suaves
+- cria transições mais suaves
 - ajuda a deixar a abertura do site mais elegante
 - permite movimento sem transformar o projeto em algo pesado
 
@@ -74,51 +74,51 @@ Usado para abrir fotos em tela maior ao clicar.
 
 Motivo:
 
-- melhora a experiencia de galeria
+- melhora a experiência de galeria
 - valoriza as fotos dos doces
-- permite ver detalhes sem criar paginas extras
+- permite ver detalhes sem criar páginas extras
 
-## O que o Site Possui Hoje
+## O Que o Site Possui Hoje
 
 ### Topo com Marca e Menu
 
-O topo contem:
+O topo contém:
 
 - logo/monograma da Jenni Doces
-- links para secoes principais
-- comportamento dinamico no mobile
+- links para seções principais
+- comportamento dinâmico no mobile
 
-No celular, a barra superior some ao rolar para baixo e aparece ao rolar para cima. Isso deixa a tela mais limpa e da mais espaco para as fotos.
+No celular, a barra superior some ao rolar para baixo e aparece ao rolar para cima. Isso deixa a tela mais limpa e dá mais espaço para as fotos.
 
 ### Hero
 
-Primeira area visual do site.
+Primeira área visual do site.
 
-Contem:
+Contém:
 
 - chamada principal
-- botoes de WhatsApp e Instagram
+- botões de WhatsApp e Instagram
 - mosaico com fotos reais
-- balao informativo sobre personalizados sob encomenda
+- balão informativo sobre personalizados sob encomenda
 
 O hero foi ajustado para o mobile, evitando que textos fiquem em cima das fotos.
 
 ### Categorias
 
-O site trabalha com tres categorias principais:
+O site trabalha com três categorias principais:
 
 - `Personalizados`
 - `Tradicionais`
 - `Datas especiais`
 
-Dentro de `Tradicionais`, a comunicacao explica que existem tradicionais simples e tradicionais especiais, sem criar categorias separadas. Isso deixa a navegacao mais simples.
+Dentro de `Tradicionais`, a comunicação explica que existem tradicionais simples e tradicionais especiais, sem criar categorias separadas. Isso deixa a navegação mais simples.
 
 ### Galerias de Fotos
 
 As fotos aparecem em:
 
 - categorias
-- portfolio em destaque
+- portfólio em destaque
 - mais fotos
 
 As imagens finais usadas pelo site ficam em:
@@ -129,64 +129,64 @@ site-assets/
 
 ### Como Pedir
 
-Secao que explica o que a cliente precisa enviar para pedir um orcamento.
+Seção que explica o que a cliente precisa enviar para pedir um orçamento.
 
-Essa area reduz duvidas antes do contato pelo WhatsApp.
+Essa área reduz dúvidas antes do contato pelo WhatsApp.
 
 ### Feedbacks de Clientes
 
-A secao de feedbacks ja esta preparada.
+A seção de feedbacks já está preparada.
 
 Hoje ela usa cards simulados, com visual inspirado em conversa de WhatsApp.
 
 Comportamento atual:
 
 - os cards giram automaticamente
-- o movimento e continuo
-- o usuario pode arrastar com o dedo no celular
-- o movimento automatico volta depois que o usuario solta
+- o movimento é contínuo
+- o usuário pode arrastar com o dedo no celular
+- o movimento automático volta depois que o usuário solta
 
 Quando os prints reais chegarem, eles podem substituir os exemplos atuais.
 
 ### FAQ
 
-Secao de perguntas frequentes para explicar pontos basicos antes do pedido.
+Seção de perguntas frequentes para explicar pontos básicos antes do pedido.
 
 ## Estrutura de Pastas
 
 ```text
 .
-├── .github/
-│   └── workflows/
-│       └── deploy-pages.yml
-├── .vscode/
-│   └── extensions.json
-├── assets/
-├── site-assets/
-│   └── img/
-├── site-planejamento/
-├── index.html
-├── mobile-preview.html
-├── styles.css
-├── script.js
-├── package.json
-├── package-lock.json
-├── README.md
-└── README-ASSETS.md
+|-- .github/
+|   `-- workflows/
+|       `-- deploy-pages.yml
+|-- .vscode/
+|   `-- extensions.json
+|-- assets/
+|-- site-assets/
+|   `-- img/
+|-- site-planejamento/
+|-- index.html
+|-- mobile-preview.html
+|-- styles.css
+|-- script.js
+|-- package.json
+|-- package-lock.json
+|-- README.md
+`-- README-ASSETS.md
 ```
 
-## Explicacao dos Arquivos Principais
+## Explicação dos Arquivos Principais
 
 ### `index.html`
 
 Arquivo principal do site.
 
-Responsavel por:
+Responsável por:
 
-- estrutura da pagina
+- estrutura da página
 - textos
 - links
-- secoes
+- seções
 - imagens
 - metadados de SEO
 
@@ -194,34 +194,34 @@ Responsavel por:
 
 Arquivo visual do site.
 
-Responsavel por:
+Responsável por:
 
 - cores
 - fontes
-- espacamentos
+- espaçamentos
 - responsividade
 - layout mobile
-- animacoes visuais
+- animações visuais
 - comportamento visual da barra superior
 
 ### `script.js`
 
-Arquivo de interacoes.
+Arquivo de interações.
 
-Responsavel por:
+Responsável por:
 
-- animacoes de entrada
+- animações de entrada
 - menu ativo conforme a rolagem
 - barra superior que some e aparece no mobile
 - lightbox das fotos
-- orbita dos feedbacks
+- órbita dos feedbacks
 - arraste manual dos cards de feedback
 
 ### `mobile-preview.html`
 
 Arquivo auxiliar para testar o site em formato de celular no computador.
 
-Ele nao e a pagina principal do site. Serve apenas para facilitar revisao visual durante o desenvolvimento.
+Ele não é a página principal do site. Serve apenas para facilitar a revisão visual durante o desenvolvimento.
 
 ### `site-assets/`
 
@@ -233,13 +233,13 @@ Essa pasta deve ir para o GitHub porque o site depende dela para funcionar.
 
 Pasta de curadoria local.
 
-Ela guarda materiais brutos, imagens originais e organizacao de trabalho.
+Ela guarda materiais brutos, imagens originais e organização de trabalho.
 
-Por padrao, essa pasta fica fora do Git para evitar subir arquivos pesados ou desnecessarios.
+Por padrão, essa pasta fica fora do Git para evitar subir arquivos pesados ou desnecessários.
 
 ### `site-planejamento/`
 
-Pasta com documentacao do processo, decisoes de design, estrutura da home e orientacoes de manutencao.
+Pasta com documentação do processo, decisões de design, estrutura da home e orientações de manutenção.
 
 ## Como Rodar Localmente
 
@@ -267,7 +267,7 @@ Para ver o mockup mobile no computador:
 http://127.0.0.1:4173/mobile-preview.html
 ```
 
-## Scripts Disponiveis
+## Scripts Disponíveis
 
 No `package.json` existem estes scripts:
 
@@ -286,7 +286,7 @@ Sobe o site localmente na porta `4173`.
 
 Sobe uma segunda porta para uso com simuladores mobile no VSCode.
 
-## Publicacao no GitHub Pages
+## Publicação no GitHub Pages
 
 O projeto possui um workflow em:
 
@@ -296,7 +296,7 @@ O projeto possui um workflow em:
 
 Esse workflow publica o site no GitHub Pages sempre que houver push na branch `main`.
 
-Ele publica apenas os arquivos necessarios para o site:
+Ele publica apenas os arquivos necessários para o site:
 
 - `index.html`
 - `mobile-preview.html`
@@ -318,7 +318,7 @@ Em **Build and deployment**, selecione:
 Source: GitHub Actions
 ```
 
-Depois disso, o workflow `Deploy GitHub Pages` deve publicar o site automaticamente.
+Depois disso, o workflow `Publicar site no GitHub Pages` deve publicar o site automaticamente.
 
 O link final normalmente fica neste formato:
 
@@ -337,14 +337,39 @@ Fluxo recomendado:
 5. Fazer push para o GitHub.
 6. Aguardar o GitHub Pages publicar.
 
-Comandos basicos:
+Comandos básicos:
 
 ```powershell
 git status
 git add .
-git commit -m "Descricao da alteracao"
+git commit -m "Descreva a alteração em português"
 git push
 ```
+
+## Padrão de Commits
+
+Use mensagens de commit em português do Brasil.
+
+Bons exemplos:
+
+```text
+Ajusta layout mobile do topo
+Atualiza fotos da galeria de personalizados
+Corrige texto da seção Como pedir
+Melhora documentação do projeto
+Publica ajustes no GitHub Pages
+```
+
+Evite mensagens genéricas como:
+
+```text
+update
+fix
+changes
+deploy
+```
+
+Uma boa mensagem deve explicar rapidamente o que mudou.
 
 ## Cuidados com Imagens
 
@@ -354,8 +379,8 @@ Evite colocar imagens brutas diretamente no HTML.
 
 Antes de adicionar novas fotos:
 
-- escolha imagens com boa iluminacao
-- prefira fotos nitidas
+- escolha imagens com boa iluminação
+- prefira fotos nítidas
 - use nomes curtos e descritivos
 - mantenha categorias organizadas
 - evite arquivos muito pesados
@@ -366,15 +391,15 @@ Antes de colocar prints de clientes:
 
 - esconda telefone
 - esconda foto do cliente
-- esconda nome completo, se necessario
-- remova informacoes sensiveis
-- mantenha apenas o elogio e contexto necessario
+- esconda nome completo, se necessário
+- remova informações sensíveis
+- mantenha apenas o elogio e contexto necessário
 
-O objetivo e mostrar prova social sem expor dados pessoais.
+O objetivo é mostrar prova social sem expor dados pessoais.
 
-## Manutencao Recomendada
+## Manutenção Recomendada
 
-Antes da publicacao final, ainda vale revisar:
+Antes da publicação final, ainda vale revisar:
 
 - textos finais aprovados pela Jenni
 - cores da identidade visual
@@ -384,9 +409,9 @@ Antes da publicacao final, ainda vale revisar:
 - link final do WhatsApp
 - SEO e imagem de compartilhamento
 
-## Documentacao Complementar
+## Documentação Complementar
 
-Leia tambem:
+Leia também:
 
 - `README-ASSETS.md`
 - `site-planejamento/documentacao-geral.md`
@@ -397,9 +422,9 @@ Leia tambem:
 
 ## Resumo
 
-Este projeto e um site estatico, mobile-first, criado para valorizar os doces da Jenni Doces e facilitar pedidos pelo WhatsApp.
+Este projeto é um site estático, mobile-first, criado para valorizar os doces da Jenni Doces e facilitar pedidos pelo WhatsApp.
 
-A base tecnica foi mantida simples de proposito: HTML, CSS e JavaScript, com apoio pontual de GSAP e PhotoSwipe.
+A base técnica foi mantida simples de propósito: HTML, CSS e JavaScript, com apoio pontual de GSAP e PhotoSwipe.
 
-O foco principal e entregar uma experiencia bonita, leve, fluida e facil de usar no celular.
+O foco principal é entregar uma experiência bonita, leve, fluida e fácil de usar no celular.
 

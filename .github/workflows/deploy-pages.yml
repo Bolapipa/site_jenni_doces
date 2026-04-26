@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: Publicar site no GitHub Pages
 
 on:
   push:
@@ -17,17 +17,17 @@ concurrency:
 
 jobs:
   deploy:
-    name: Publish static site
+    name: Publicar site estatico
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Baixar arquivos do repositorio
         uses: actions/checkout@v4
 
-      - name: Prepare static files
+      - name: Preparar arquivos estaticos
         run: |
           mkdir -p dist
           cp index.html dist/
@@ -36,15 +36,14 @@ jobs:
           cp script.js dist/
           cp -R site-assets dist/
 
-      - name: Configure GitHub Pages
+      - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload static artifact
+      - name: Enviar artefato estatico
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
-      - name: Deploy to GitHub Pages
+      - name: Publicar no GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
