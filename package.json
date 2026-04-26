@@ -1,0 +1,12 @@
+{
+  "name": "projeto-jenni-doces",
+  "private": true,
+  "scripts": {
+    "preview": "python -m http.server 4173 --bind 127.0.0.1",
+    "preview:simulator": "python -m http.server 5173 --bind 127.0.0.1"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "photoswipe": "^5.4.4"
+  }
+}
